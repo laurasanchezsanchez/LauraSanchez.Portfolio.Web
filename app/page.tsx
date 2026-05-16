@@ -16,6 +16,7 @@ import {
 } from "@/lib/types";
 
 const API_BASE_URL = "https://laura-sanchez-portfolio-api.onrender.com/api";
+//const API_BASE_URL = "https://localhost:7020/api"
 
 interface FetchState<T> {
   data: T | null;
