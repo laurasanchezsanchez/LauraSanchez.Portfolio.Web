@@ -36,6 +36,7 @@ export interface Project {
   description: string;
   technologies: string[];
   githubUrl: string;
+  liveUrl?: string
 }
 
 export interface ProjectsData {
