@@ -40,7 +40,7 @@ export function Hero({ data, isLoading, error }: HeroProps) {
       <div className="max-w-3xl text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-8">
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          <span className="text-sm text-muted-foreground">Available for work</span>
+          <span className="text-sm text-muted-foreground">Working at Solera Holdings, LLC</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-4 text-balance">
