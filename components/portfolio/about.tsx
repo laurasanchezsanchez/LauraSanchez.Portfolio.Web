@@ -48,7 +48,7 @@ export function About({ data, isLoading, error }: AboutProps) {
         <div className="relative">
           <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-primary via-primary/50 to-transparent rounded-full" />
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed pl-6 text-pretty">
-            {data.bio}
+            {data.description}
           </p>
         </div>
       </div>
